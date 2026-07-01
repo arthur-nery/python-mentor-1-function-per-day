@@ -6,6 +6,23 @@ O formato segue uma lógica simples de versionamento manual para registrar a evo
 
 ---
 
+## [v1.1.1] — 2026-06-18
+
+### Changed
+
+- Criada uma versão enxuta da v1.1 para uso direto nos **Projects do ChatGPT**.
+- Ajustado o prompt ativo para ficar abaixo de **8k caracteres**.
+- Mantida a lógica principal da v1.1: 1 função por dia + ciclo quinzenal de Megaprojeto.
+- Reduzidas repetições, espaçamentos e trechos menos essenciais para evitar estouro do limite de instruções dos Projects.
+- Adicionada a tag `ChatGPT_Projects`.
+- Atualizada a descrição da versão para explicar o motivo do ajuste.
+
+### Why
+
+- A mudança existe para deixar claro, para quem visitar o repositório, que esta versão é a mais indicada para colar no campo de instruções dos Projects do ChatGPT sem ultrapassar o limite aproximado de 8k caracteres.
+
+---
+
 ## [v1.1] — 2026-06-18
 
 ### Added
