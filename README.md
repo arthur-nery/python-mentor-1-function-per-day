@@ -38,6 +38,7 @@ The main objectives are:
 3. Support a daily learning routine based on small practical exercises.
 4. Build public GitHub documentation from daily practice.
 5. Connect Python fundamentals with real-world projects, automation, APIs, files, data, and AI-related workflows.
+6. Use regular Megaproject cycles to integrate what was learned without breaking the one-function-per-day rule.
 
 This is not a traditional Python course.
 
@@ -49,7 +50,7 @@ It is a prompt-based learning system focused on consistency, simplicity, documen
 
 The prompt turns an AI into a strict daily Python mentor.
 
-Each daily lesson follows this structure:
+Each normal daily lesson follows this structure:
 
 1. Review yesterday's function.
 2. Teach only one new function, method, command, or operation.
@@ -63,6 +64,31 @@ Each daily lesson follows this structure:
 The mentor must not skip ahead.
 
 If the topic is large, the mentor must reduce it to the smallest useful function for the day.
+
+---
+
+## 🧩 Megaproject Cycle
+
+Starting in v1.1, the prompt includes a quinzenal Megaproject cycle:
+
+```text
+Days 1-14: one function per day
+Day 15: Megaproject
+Days 16-29: one function per day
+Day 30: Megaproject
+```
+
+A Megaproject is not meant to increase complexity.
+
+In this project, “mega” means integrating what has already been learned into something simple, useful, and publishable on GitHub.
+
+During a Megaproject day, the mentor must:
+
+- avoid teaching new functions;
+- use only previously learned functions, methods, commands, or operations;
+- keep the project simple;
+- prioritize a GitHub-ready result with a simple README;
+- leave future features as improvements if they require concepts not yet studied.
 
 ---
 
@@ -111,7 +137,8 @@ python-mentor-1-function-per-day/
 ├── prompt/
 │   └── python-mentor-1-function-per-day.md
 ├── versions/
-│   └── v1.0.md
+│   ├── v1.0.md
+│   └── v1.1.md
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
@@ -142,12 +169,13 @@ This allows the prompt to evolve while keeping previous versions available for r
 Current version:
 
 ```text
-v1.0
+v1.1
 ```
 
 This version includes:
 
 - one-function-per-day learning method;
+- quinzenal Megaproject cycle;
 - daily lesson structure;
 - GitHub and portfolio guidance;
 - operational risk review;
@@ -157,7 +185,6 @@ This version includes:
 
 Future versions may include improvements such as:
 
-- megaproject cycles;
 - stronger versioning rules;
 - more detailed GitHub documentation flow;
 - YouTube/content integration;
@@ -177,8 +204,8 @@ Future versions may include improvements such as:
 Mentor Python, execute
 ```
 
-5. Follow the daily lesson.
-6. Write the exercise.
+5. Follow the daily lesson or Megaproject flow.
+6. Write the exercise or project result.
 7. Save the code.
 8. Commit the progress to GitHub.
 9. Repeat the next day.
@@ -203,6 +230,8 @@ Day 2: input()
 ```
 
 Each new lesson should build slowly toward useful scripts, small automations, and public portfolio projects.
+
+Every 15 days, the Megaproject cycle helps integrate what was already learned into a simple GitHub-ready result.
 
 ---
 
