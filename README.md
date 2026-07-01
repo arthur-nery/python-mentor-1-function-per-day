@@ -38,7 +38,7 @@ The main objectives are:
 3. Support a daily learning routine based on small practical exercises.
 4. Build public GitHub documentation from daily practice.
 5. Connect Python fundamentals with real-world projects, automation, APIs, files, data, and AI-related workflows.
-6. Use regular Megaproject cycles to integrate what was learned without breaking the one-function-per-day rule.
+6. Keep an operational prompt version small enough to fit inside ChatGPT Projects.
 
 This is not a traditional Python course.
 
@@ -81,14 +81,6 @@ Day 30: Megaproject
 A Megaproject is not meant to increase complexity.
 
 In this project, “mega” means integrating what has already been learned into something simple, useful, and publishable on GitHub.
-
-During a Megaproject day, the mentor must:
-
-- avoid teaching new functions;
-- use only previously learned functions, methods, commands, or operations;
-- keep the project simple;
-- prioritize a GitHub-ready result with a simple README;
-- leave future features as improvements if they require concepts not yet studied.
 
 ---
 
@@ -138,7 +130,8 @@ python-mentor-1-function-per-day/
 │   └── python-mentor-1-function-per-day.md
 ├── versions/
 │   ├── v1.0.md
-│   └── v1.1.md
+│   ├── v1.1.md
+│   └── v1.1.1.md
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
@@ -169,7 +162,7 @@ This allows the prompt to evolve while keeping previous versions available for r
 Current version:
 
 ```text
-v1.1
+v1.1.1
 ```
 
 This version includes:
@@ -181,15 +174,19 @@ This version includes:
 - operational risk review;
 - project-oriented learning;
 - Python-first learning path;
-- LinkedIn/post inspiration module.
+- LinkedIn/post inspiration module;
+- reduced length for ChatGPT Projects.
 
-Future versions may include improvements such as:
+### Why v1.1.1 exists
 
-- stronger versioning rules;
-- more detailed GitHub documentation flow;
-- YouTube/content integration;
-- project templates;
-- daily lesson examples.
+Version **v1.1.1** is a lightly compressed version of v1.1.
+
+The purpose is to keep the operational prompt below the approximate **8k-character limit** used in ChatGPT Projects instructions, while preserving the main behavior of the mentor.
+
+Use:
+
+- **v1.1** for a more explanatory/documented version;
+- **v1.1.1** for the version to paste into ChatGPT Projects.
 
 ---
 
@@ -246,6 +243,7 @@ Example:
 ```text
 versions/v1.0.md
 versions/v1.1.md
+versions/v1.1.1.md
 versions/v1.2.md
 ```
 
